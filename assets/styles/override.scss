@@ -1,0 +1,36 @@
+// .about-section {
+//   img {
+//     cursor: default; 
+//     // pointer-events: none !important;   
+//   }
+//   // a img {
+//   //   pointer-events: none;
+//   // }
+// }
+.certificate-badge{
+  a{
+    pointer-events: none;
+  }
+  img {
+    cursor: default;   
+  }
+}
+.home {
+  .background {
+    filter: none;
+  }
+
+  img {
+    width: 139px;
+    height: 154px;
+  }
+}
+
+
+
+// #about > div > div.col-sm-6.pt-5.pl-md-4.pl-sm-3.pt-sm-0 > div > div:nth-child(1) > div
+// #about > div > div:nth-child(1) > a
+// #home > div.container.content.text-center
+// #home > div.container.content.text-center > img
+// document.querySelector("#about > div > div.col-sm-6.pt-5.pl-md-4.pl-sm-3.pt-sm-0 > div > div:nth-child(1) > div > a > img")
+//     -webkit-text-size-adjust: 100%;
