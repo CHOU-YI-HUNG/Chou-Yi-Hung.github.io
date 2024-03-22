@@ -14,14 +14,16 @@ skills:
 - name: C
   logo: /images/sections/skills/C.jfif
   summary: "Know basic C programming. Used for contest programming and problem solving."
-
+  url: "https://www.w3schools.com/c/c_intro.php"
 - name: Python
   logo: /images/sections/skills/Python.png
   summary: "Know basic Python programming. Used for contest programming and problem solving."
+  url: "https://www.python.org/"
 
 - name: MATLAB
   logo: /images/sections/skills/MATLAB.png
   summary: "Know basic MATLAB programming. Used for mathematical simulation, filter design, and time-frequency analysis."
+  url: "https://www.mathworks.com/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
@@ -32,10 +34,16 @@ skills:
   logo: /images/sections/skills/linux.png
   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
 
+- name: Unity
+  logo: /images/sections/skills/unity.png
+  summary: "Experienced in Unity game development with C#, including object-oriented programming, event handling, and object pooling."
+  url: "https://unity.com/"
+
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experienced in git-based development, primarily utilizing GitHub for version control."
   url: "https://git-scm.com/"
+
 
 
 # - name: Kubernetes

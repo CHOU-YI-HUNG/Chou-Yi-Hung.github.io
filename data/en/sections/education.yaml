@@ -11,7 +11,7 @@ section:
 
 degrees:
 - name: M.S. in Communication Engineering
-  icon: fa-microscope
+  icon: fa-tower-cell
   timeframe: 2021-2023
   institution:
     name: National Taiwan University
@@ -21,6 +21,9 @@ degrees:
     scale: GPA
     achieved: 4.3
     outOf: 4.3
+  publications: #(optional)
+  - title: "One-Bit Power and Autocorrelation Estimation: Cramér-Rao Bounds and Adaptive Methods"
+    url: "https://hdl.handle.net/11296/9mudek"
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
@@ -73,7 +76,7 @@ degrees:
   - Participated in SATOR game development in 2018.
   - Attended the Taiwan Student Developers Forum in 2018.
   - Involved in the development of "The Way of Freedom" game in 2019.
-  - Received first-class honors for the undergraduate project in Communication Engineering Department in 2020.
+  - Excellence Award in the Communication Engineering Department Project Competition in 2020.
 - name: Higher Secondary School Certificate
   icon: fa-school
   timeframe: 2014-2017
