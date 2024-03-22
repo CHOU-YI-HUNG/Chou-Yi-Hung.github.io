@@ -50,12 +50,12 @@ socialLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: 書卷獎
+  name: certification
   url: "#"
   badge: "/certificate/107_2_small.png"
 - type: certification
-  name: 書卷獎
-  badge: "/certificate/108_1_small.png"
+  name: certification
+  badge: "/certificate/Program_small.png"
 # - type: certification
 #   name: 書卷獎
 #   badge: "/certificate/108_2_small.png"

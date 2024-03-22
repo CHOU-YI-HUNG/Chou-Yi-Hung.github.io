@@ -15,7 +15,7 @@ experiences:
     url: "https://www.mediatek.tw/"
     location: Taiwan
     logo: /images/sections/experiences/MTK.jfif
-    overview: "MediaTek Incorporated (TWSE: 2454) is the world’s 5th largest global fabless semiconductor company. 
+    overview: "MediaTek Incorporated is the world’s 5th largest global fabless semiconductor company. 
     They are market leaders in developing innovative systems-on-chip (SoC) for mobile device, home entertainment, connectivity and IoT products. "
   positions:
   - designation: Intern
@@ -31,7 +31,7 @@ experiences:
     location: Taiwan
     logo: /images/sections/experiences/TSMC.png
     # company overview
-    overview: "TSMC (TWSE: 2330, NYSE: TSM) created the semiconductor Dedicated IC Foundry business model when it was founded in 1987."
+    overview: "TSMC created the semiconductor Dedicated IC Foundry business model when it was founded in 1987."
   positions:
   - designation: Intern
     start: Jul. 2020
