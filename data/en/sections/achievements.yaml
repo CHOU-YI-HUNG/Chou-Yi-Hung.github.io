@@ -1,7 +1,7 @@
 # section information
 section:
-  name: Achievements
-  id: achievements
+  name: Certificates
+  id: certificates
   enable: False
   weight: 10
   showOnNavbar: true
