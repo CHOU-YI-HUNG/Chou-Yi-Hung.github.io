@@ -6,83 +6,24 @@
     <description>Recent content on Profile of Yi-Hung Chou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://CHOU-YI-HUNG.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Markdown এর নমুনা</title>
-      <link>https://CHOU-YI-HUNG.github.io/posts/markdown-sample/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+    <lastBuildDate>Sat, 23 Mar 2024 12:06:25 +0800</lastBuildDate><atom:link href="https://CHOU-YI-HUNG.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Leetcode Practice</title>
+      <link>https://CHOU-YI-HUNG.github.io/posts/leetcode-practice/</link>
+      <pubDate>Sat, 23 Mar 2024 12:06:25 +0800</pubDate>
       
-      <guid>https://CHOU-YI-HUNG.github.io/posts/markdown-sample/</guid>
-      <description>এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ
-একজন ভিন্ন পোস্ট লেখক। সূচীপত্র। Markdown কন্টেন্ট রেন্ডারিং। গণিত রেন্ডারিং। ইমোজি রেন্ডারিং। Markdown Syntax Rendering Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
-H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?</description>
+      <guid>https://CHOU-YI-HUNG.github.io/posts/leetcode-practice/</guid>
+      <description>Greeting! This is an introduction post. This post tests the followings:
+Hero image is in the same directory as the post. This post should be at top of the sidebar. Post author should be the same as specified in author.yaml file. </description>
     </item>
     
     <item>
-      <title>Sub-Category</title>
-      <link>https://CHOU-YI-HUNG.github.io/posts/category/sub-category/_index.bn/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
-      
-      <guid>https://CHOU-YI-HUNG.github.io/posts/category/sub-category/_index.bn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Top Category Sample</title>
-      <link>https://CHOU-YI-HUNG.github.io/posts/category/_index.bn/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
-      
-      <guid>https://CHOU-YI-HUNG.github.io/posts/category/_index.bn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>পোস্ট সমূহ</title>
-      <link>https://CHOU-YI-HUNG.github.io/posts/_index.bn/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
-      
-      <guid>https://CHOU-YI-HUNG.github.io/posts/_index.bn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ভূমিকা</title>
+      <title>Introduction</title>
       <link>https://CHOU-YI-HUNG.github.io/posts/introduction/</link>
       <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
       
       <guid>https://CHOU-YI-HUNG.github.io/posts/introduction/</guid>
-      <description>স্বাগতম! এটি একটি ভূমিকা সূচক পোস্ট। এই পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ
-হেরো ছবিটি পোস্ট এর সাথে একই পথে আছে। এই পোস্টটি সাইডবারের সবার প্রথমে থাকা উচিত। পোস্টের লেখক author.yaml ফাইল এ যাকে উল্লেখ করা হয়েছে তিনিই থাকবেন। </description>
-    </item>
-    
-    <item>
-      <title>শর্টকোডের  নমুনা</title>
-      <link>https://CHOU-YI-HUNG.github.io/posts/shortcodes/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
-      
-      <guid>https://CHOU-YI-HUNG.github.io/posts/shortcodes/</guid>
-      <description>এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ
-ডিফল্ট হিরো ইমেজ। বিভিন্ন শর্টকোড। এলার্ট এই থিমের মধ্যে এই সকল এলার্ট রয়েছেঃ
-এটা type=&amp;quot;success&amp;quot; দিয়ে নমুনা এলার্ট। এটা type=&amp;quot;danger&amp;quot; দিয়ে নমুনা এলার্ট। এটা type=&amp;quot;warning&amp;quot; দিয়ে নমুনা এলার্ট। এটা type=&amp;quot;info&amp;quot; দিয়ে নমুনা এলার্ট। এটা type=&amp;quot;dark&amp;quot; দিয়ে নমুনা এলার্ট। এটা type=&amp;quot;primary&amp;quot; দিয়ে নমুনা এলার্ট। এটা type=&amp;quot;secondary&amp;quot; দিয়ে নমুনা এলার্ট। ছবি কোন ধরনের attribute ছাড়া ছবির একটি নমুনা। height এবং width attribute সহ ছবির একটি নমুনা। height এবং width attribute সহ মাঝখানে স্তাপিত ছবির একটি নমুনা। float attribute সহ ছবির একটি নমুনা। Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
-    </item>
-    
-    <item>
-      <title>সমৃদ্ধ কন্টেন্ট</title>
-      <link>https://CHOU-YI-HUNG.github.io/posts/category/sub-category/rich-content/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
-      
-      <guid>https://CHOU-YI-HUNG.github.io/posts/category/sub-category/rich-content/</guid>
-      <description>এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ
-বিভাগ, উপ-বিভাগে সাইডবারে একটির ভেতর আরেকটি কিভাবে আছে সেটা দেখা। হেরো ছবিটি পোস্ট যে পথে আছে সে পথে images ফোল্ডার এ থাকবে। বিভিন্ন মিডিয়া যেমন ছবি, টুইট, ইউটিউব ভিডিও, ভীমেও ভিডিও ইত্যাদি রেন্ডারিং। ছবির নমুনা টুইটের নুমুনা Owl bet you&amp;#39;ll lose this staring contest 🦉 pic.twitter.com/eJh4f2zncC
-&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) October 26, 2021 ইউটিওবের ভিডিও নমুনা ভীমেও ভিডিও নমুনা </description>
-    </item>
-    
-    <item>
-      <title>Analytics and Comments</title>
-      <link>https://CHOU-YI-HUNG.github.io/posts/analytics-and-comments/</link>
-      <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
-      
-      <guid>https://CHOU-YI-HUNG.github.io/posts/analytics-and-comments/</guid>
-      <description></description>
+      <description>Greeting! This is an introduction post. This post tests the followings:
+Hero image is in the same directory as the post. This post should be at top of the sidebar. Post author should be the same as specified in author.yaml file. </description>
     </item>
     
     
@@ -108,19 +49,8 @@ H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aqu
     
     
     
-    
-    
     <item>
-      <title>নোট সমূহ</title>
-      <link>https://CHOU-YI-HUNG.github.io/notes/_index.bn/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://CHOU-YI-HUNG.github.io/notes/_index.bn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go পরিচিতি</title>
+      <title>Introduction</title>
       <link>https://CHOU-YI-HUNG.github.io/notes/go/basic/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -133,25 +63,7 @@ msg := &amp;#34;Hello&amp;#34; Constants const Phi = 1.618 </description>
     </item>
     
     <item>
-      <title>Go বেসিক</title>
-      <link>https://CHOU-YI-HUNG.github.io/notes/go/basic/_index.bn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://CHOU-YI-HUNG.github.io/notes/go/basic/_index.bn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>অ্যাডভান্সড</title>
-      <link>https://CHOU-YI-HUNG.github.io/notes/go/advanced/_index.bn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://CHOU-YI-HUNG.github.io/notes/go/advanced/_index.bn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>বেসিক টাইপ সমূহ</title>
+      <title>Basic Types</title>
       <link>https://CHOU-YI-HUNG.github.io/notes/go/basic/types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -172,7 +84,7 @@ var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float Arrays //
     </item>
     
     <item>
-      <title>ফাইল ম্যানিপুলেশন</title>
+      <title>File Manipulation</title>
       <link>https://CHOU-YI-HUNG.github.io/notes/go/advanced/files/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -181,7 +93,7 @@ var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float Arrays //
     </item>
     
     <item>
-      <title>ব্যাশ ভেরিয়েবল</title>
+      <title>Bash Variables</title>
       <link>https://CHOU-YI-HUNG.github.io/notes/bash/basic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -189,24 +101,6 @@ var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float Arrays //
       <description>Variable NAME=&amp;#34;John&amp;#34; echo $NAME echo &amp;#34;$NAME&amp;#34; echo &amp;#34;${NAME} Condition if [[ -z &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is empty&amp;#34; elif [[ -n &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is not empty&amp;#34; fi </description>
     </item>
     
-    <item>
-      <title>Go এর নোট সমূহ</title>
-      <link>https://CHOU-YI-HUNG.github.io/notes/go/_index.bn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://CHOU-YI-HUNG.github.io/notes/go/_index.bn/</guid>
-      <description>Go Notes </description>
-    </item>
-    
-    
-    <item>
-      <title>ব্যাশের নোট সমূহ</title>
-      <link>https://CHOU-YI-HUNG.github.io/notes/bash/_index.bn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://CHOU-YI-HUNG.github.io/notes/bash/_index.bn/</guid>
-      <description>Bash Notes </description>
-    </item>
     
     
   </channel>
