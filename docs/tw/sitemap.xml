@@ -14,6 +14,18 @@
                 href="https://CHOU-YI-HUNG.github.io/tw/categories/"
                 />
   </url><url>
+    <loc>https://CHOU-YI-HUNG.github.io/tw/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://CHOU-YI-HUNG.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://CHOU-YI-HUNG.github.io/tw/tags/"
+                />
+  </url><url>
     <loc>https://CHOU-YI-HUNG.github.io/tw/</loc>
     <xhtml:link
                 rel="alternate"
@@ -26,16 +38,16 @@
                 href="https://CHOU-YI-HUNG.github.io/tw/"
                 />
   </url><url>
-    <loc>https://CHOU-YI-HUNG.github.io/tw/tags/</loc>
+    <loc>https://CHOU-YI-HUNG.github.io/tw/posts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://CHOU-YI-HUNG.github.io/tags/"
+                href="https://CHOU-YI-HUNG.github.io/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="https://CHOU-YI-HUNG.github.io/tw/tags/"
+                href="https://CHOU-YI-HUNG.github.io/tw/posts/"
                 />
   </url>
 </urlset>
