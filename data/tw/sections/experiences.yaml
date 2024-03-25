@@ -1,0 +1,42 @@
+# section information
+section:
+  name: 工作經驗
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: 聯發科技
+    url: "https://www.mediatek.tw/"
+    location: 台灣
+    logo: /images/sections/experiences/MTK.jfif
+    overview: "聯發科技股份有限公司為全球第五大無晶圓廠半導體公司，他們在行動裝置、家庭娛樂、無線通訊、物聯網等產品居市場領先地位。每年約有  20 億台內建聯發科技晶片的終端產品在全球上市，近三分之一的手機均採用聯發科技晶片。"
+  positions:
+  - designation: 實習生
+    start: 2022年7月
+    end: 2022年8月
+    responsibilities:
+    - 設計和開發使用者圖形介面工具，用來分析5G New Radio數據
+    - 學習5G New Radio的相關規格
+    
+- company:
+    name: 台灣積體電路製造
+    url: "https://www.tsmc.com/chinese"
+    location: 台灣
+    logo: /images/sections/experiences/TSMC.png
+    # company overview
+    overview: "台灣積體電路製造股份有限公司成立於民國七十六年，在半導體產業中首創專業積體電路製造服務模式。"
+  positions:
+  - designation: 實習生
+    start: 2020年7月
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: 2020年8月
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - 設計和開發使用者圖形介面，用來分析光學鄰近校正(optical proximity correction)。
+    - 學習和除錯機器學習程式碼。    

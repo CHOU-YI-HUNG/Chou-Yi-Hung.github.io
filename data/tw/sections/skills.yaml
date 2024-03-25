@@ -1,0 +1,66 @@
+# section information
+section:
+  name: 專業技能
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: C
+  logo: /images/sections/skills/C.jfif
+  summary: "有基本知識，如: pointer, union, struct, array, string processing…了解, 目前在用Leetcode網站上練習撰寫。"
+  url: "https://www.w3schools.com/c/c_intro.php"
+- name: Python
+  logo: /images/sections/skills/Python.png
+  summary: "有基本知識，如:List, Class, def…等，有用過Python架設Flask網站,使用者圖形介面(GUI), CNN架設,以及資料庫的經歷。"
+  url: "https://www.python.org/"
+
+- name: MATLAB
+  logo: /images/sections/skills/MATLAB.png
+  summary: "有基本知識，有用過撰寫最佳化問題(lagrangian multiplier), 濾波器設計,時頻分析的經驗。"
+  url: "https://www.mathworks.com/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "會Dockerfile和Docker compose撰寫, volumes和mount,bridge…等，有用過架設Jellyfin, Hugo網站的經驗。"
+  url: "https://www.docker.com/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "了解bash/shell的指令，ls, cd, mv, tar, copy, chmod, chown, rm, cat, touch…等指令。"
+
+- name: Unity
+  logo: /images/sections/skills/unity.png
+  summary: "E了解物理引擎、動畫控制、UI排版(UGUI)，以及熟悉Unity的生命週期﹑Unity API，並有過和團隊開發小遊戲的經驗。"
+  url: "https://unity.com/"
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "會add, commit, push, checkout, pull等基本知識，有過用github管理過專案的經驗。"
+  url: "https://git-scm.com/"
+
+
+
+# - name: Kubernetes
+#   logo: /images/sections/skills/kubernetes.png
+#   summary: "Capable of deploying, managing application on Kubernetes. 
+#   Experienced in writing Kubernetes controllers for CRDs."
+#   url: "https://kubernetes.io/"
+
+# - name: Go Development
+#   logo: /images/sections/skills/go.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: Cloud Computing
+#   logo: /images/sections/skills/cloud.png
+#   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+# - name: Prometheus
+#   logo: /images/sections/skills/prometheus.png
+#   summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+#   url: "https://prometheus.io/"

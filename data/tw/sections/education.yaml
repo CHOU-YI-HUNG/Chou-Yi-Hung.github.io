@@ -1,0 +1,86 @@
+# section information
+section:
+  name: 教育經驗
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: 電信工程學系碩士
+  icon: fa-graduation-cap
+  timeframe: 2021-2023
+  institution:
+    name: 國立台灣大學
+    url: "https://www.ntu.edu.tw/"
+    logo: /images/sections/education/NTU.jfif
+  grade: #(optional)
+    scale: GPA
+    achieved: 4.3
+    outOf: 4.3
+  publications: #(optional)
+  - title: "單元量化功率和自我相關函數估計: Cramér-Rao界和自適應方法"
+    url: "https://hdl.handle.net/11296/9mudek"
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: 可適性信號處理 
+      achieved: A+
+      outOf: A+
+    - name:  凸函數最佳化
+      achieved: A+
+      outOf: A+
+    - name:  時頻分析和小波轉換
+      achieved: A+
+      outOf: A+
+    - name:  近代頻譜分析
+      achieved: A
+      outOf: A  
+    - name: 工程數學特論 
+      achieved: A+
+      outOf: A+    
+- name: 通訊工程學士
+  icon: fa-graduation-cap
+  timeframe: 2017-2021
+  institution:
+    name: 國立中央大學
+    url: "https://www.ce.ncu.edu.tw/en"
+    logo: /images/sections/education/NCU.jfif
+  grade: #(optional)
+    scale: GPA
+    achieved: 4.3    
+    outOf: 4.3
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: 離散數學
+      achieved: 100
+      outOf: 100
+    - name: 計算機組織
+      achieved: 97
+      outOf: 100
+    - name: 作業系統
+      achieved: 95
+      outOf: 100
+    - name: 演算法
+      achieved: 93
+      outOf: 100
+  extracurricularActivities: #(optional)
+  - 2018年參與SATOR遊戲製作
+  - 2018年參加台灣學生開發者論壇
+  - 2019年參與戲The way of freedom遊戲製作
+  - 2020年通訊工程學系大學部專題實作甲等
+- name: 普通高中
+  icon: fa-school
+  timeframe: 2014-2017
+  institution:
+    name: 國立嘉義高中
+    url: "https://www.cysh.cy.edu.tw/"
+    logo: /images/sections/education/CY.jpg

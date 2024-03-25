@@ -1,0 +1,78 @@
+# section information
+section:
+  name: 關於
+  id: about
+  enable: True
+  weight: 1
+  showOnNavbar: True
+  template: sections/about.html
+
+# your designation
+designation: 待業中
+# your company information
+# company:
+#   name: Example Co.
+#   url: "https://www.example.com"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+resume: "files/單頁履歷.pdf"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+# resourceLinks:
+# - title: "My Resume"
+#   url: "https://drive.google.com/file/d/1LwVGVOMW4y3lVhP60ADtJIyHgcJgNOGM/view?usp=drive_link"
+
+# a summary about you
+summary: '您好! 我是周怡宏，來自台灣，畢業台灣大學電信工程研究所。
+畢業之後，每天使用python和c在Leetcode上面練習題目，
+此外，我也使用docker compose練習架設Hugo網站或Jellyfin影音伺服器，
+希望在不久的未來，能夠完成更多的side project。'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "aq1524003@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/CHOU-YI-HUNG"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/profile.php?id=100002813544178"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: certification
+  url: "#"
+  badge: "/certificate/107_2_small.png"
+- type: certification
+  name: certification
+  badge: "/certificate/Program_small.png"
+# - type: certification
+#   name: 書卷獎
+#   badge: "/certificate/108_2_small.png"
+# - type: certification
+#   name: 書卷獎
+#   badge: "/certificate/109_1_small.png"
+
+# - type: certification
+#   name: TSMC
+#   badge: "/certificate/TSMC.png"
+
+# - type: certification
+#   name: MTK
+#   badge: "/certificate/MTK.jpg"
+
+# - type: certification
+#   name: 專題獎狀
+#   badge: "/certificate/Program.png"
+#about > div > div.col-sm-6.pt-5.pl-md-4.pl-sm-3.pt-sm-0 > div > div:nth-child(1) > div > a > img
+#home > div.container.content.text-center > img

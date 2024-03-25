@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Leetcode Practice</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.b76b804f7f0dca2ad401397e45baf64d823f736311637d37cc837ed48b59b327.css" integrity="sha256-t2uAT38NyirUATl&#43;Rbr2TYI/c2MRY303zIN&#43;1ItZsyc=" />
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/site/logo_huecb298c1f55f02adf8f3962154f5ae2c_19038_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="Leetcode Practice" />
+<meta property="og:description" content="Leetcode Practice" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://CHOU-YI-HUNG.github.io/posts/leetcode-practice/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-23T12:06:25+08:00" />
+<meta property="article:modified_time" content="2024-03-23T12:06:25+08:00" />
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Leetcode Practice"/>
+<meta name="twitter:description" content="Leetcode Practice"/>
+
+    
+    
+<meta name="description" content="Leetcode Practice" />
+
+
+    
+
+    
+
+
+
+
+<script>
+      theme = localStorage.getItem('darkmode:color-scheme') || 'system';
+      if (theme == 'system') {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          theme = 'dark';
+        } else {
+          theme = 'light';
+        }
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    </script>
+  </head>
+
+  <body class="type-posts kind-page" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
+  <div class="container">
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
+    </button>
+    
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/site/logo_huecb298c1f55f02adf8f3962154f5ae2c_19038_42x0_resize_box_3.png" id="logo" alt="Logo">
+      Profile of Yi-Hung Chou</a>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/#home">Home</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">About</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#skills">Skills</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#experiences">Experiences</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#education">Education</a>
+                </li>
+              
+            
+            
+            
+            
+            
+            
+            
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+          </li>
+        
+        
+        
+        
+        
+          <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+</div>
+</li>
+
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/site/logo_huecb298c1f55f02adf8f3962154f5ae2c_19038_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/site/logo_huecb298c1f55f02adf8f3962154f5ae2c_19038_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts/" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/introduction/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active list-link" href="/posts/leetcode-practice/" title="Leetcode">Leetcode</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/Chou2_hu2c6ec9d3826f85fe4d3001eb966c5848_126113_120x120_fit_q75_box.jpg' alt="Author Image">
+          <h5 class="author-name">Chou Yi-Hung</h5>
+          <p class="text-muted">Saturday, March 23, 2024 | 1 minute</p>
+        </div>
+        
+        
+        <div class="title">
+          <h1>Leetcode Practice</h1>
+        </div>
+
+        
+
+        
+          <div class="tags">
+  <ul style="padding-left: 0;">
+    
+  </ul>
+</div>
+
+        
+        <div class="post-content" id="post-content">
+          <p>Greeting! This is an introduction post. This post tests the followings:</p>
+<ul>
+<li>Hero image is in the same directory as the post.</li>
+<li>This post should be at top of the sidebar.</li>
+<li>Post author should be the same as specified in <code>author.yaml</code> file.</li>
+</ul>
+
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+          <div class="col-md-6 share-buttons">
+          
+            <strong>Share on:</strong>
+            
+            <a class="btn icon-button bg-facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fCHOU-YI-HUNG.github.io%2fposts%2fleetcode-practice%2f" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            
+            
+                <a class="btn icon-button bg-twitter" href="https://twitter.com/share?url=https%3a%2f%2fCHOU-YI-HUNG.github.io%2fposts%2fleetcode-practice%2f&text=Leetcode%20Practice&via=Profile%20of%20Yi-Hung%20Chou" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+            
+            
+                <a  class="btn icon-button bg-reddit" href="https://reddit.com/submit?url=https%3a%2f%2fCHOU-YI-HUNG.github.io%2fposts%2fleetcode-practice%2f&title=Leetcode%20Practice" target="_blank">
+                  <i class="fab fa-reddit"></i>
+                </a>
+            
+            
+            
+            
+                <a class="btn icon-button bg-linkedin" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fCHOU-YI-HUNG.github.io%2fposts%2fleetcode-practice%2f&title=Leetcode%20Practice" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            
+            
+             
+            
+                 <a class="btn icon-button bg-whatsapp" href="https://api.whatsapp.com/send?text=Leetcode%20Practice https%3a%2f%2fCHOU-YI-HUNG.github.io%2fposts%2fleetcode-practice%2f" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+            
+            
+                <a class="btn icon-button" href="mailto:?subject=Leetcode%20Practice&body=https%3a%2f%2fCHOU-YI-HUNG.github.io%2fposts%2fleetcode-practice%2f" target="_blank">
+                  <i class="fas fa-envelope-open-text"></i>
+                </a>
+            
+          
+          </div>
+
+        
+        
+          
+            
+          
+          <div class="col-md-6 btn-improve-page">
+             
+               <a href="https://github.com/CHOU-YI-HUNG/Chou-Yi-Hung.github.io/edit/main/content/posts/LeetCode%20Practice/index.md" title="Improve this page" target="_blank" rel="noopener">
+            
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+    
+    
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/posts/introduction/" title="Introduction" class="btn filled-button">
+        <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
+        <div class="next-prev-text">Introduction</div>
+      </a>
+    </div>
+  
+  
+</div>
+
+      <hr />
+
+      
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"  data-toggle="tooltip" data-placement="left" title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents"></nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://CHOU-YI-HUNG.github.io#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://CHOU-YI-HUNG.github.io#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://CHOU-YI-HUNG.github.io#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://CHOU-YI-HUNG.github.io#education">Education</a>
+                </li>
+              
+              
+              
+              
+              
+              
+              
+            
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:aq1524003@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>aq1524003@gmail.com</span>
+                </a></li>
+              
+            
+              
+                <li><span><i class="fas fa-phone-alt"></i></span> <span>&#43;886 976783461</span></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+  </footer>
+
+
+    <script src="/application.4864d7a432ac83b1f5e2e65bfb1f19375313d81ed5bfba1f5aa7f70035f1f12b.js" integrity="sha256-SGTXpDKsg7H14uZb&#43;x8ZN1MT2B7Vv7ofWqf3ADXx8Ss=" defer></script>
+
+
+    
+     
+
+    
+    
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+# some information about you
+name: "周怡宏"
+nickname: "周怡宏"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "你好, 我是"
+image: "images/author/Chou2.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "aq1524003@gmail.com"
+  phone: "+886 976783461"
+  # github: johndoe
+  # linkedin: johndoe
+  # researchgate: john-doe
+
+# some summary about what you do
+summary:
+  - 我是通訊工程師
+  - 熱愛撰寫程式
+  - 畢業於台灣大學電信工程學系
+  - 喜歡路跑和健走
