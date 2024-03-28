@@ -32,7 +32,7 @@ languages:
   tw:
     languageCode: "tw"
     languageName: 繁體中文
-    title: "周怡宏個人網站"
+    title: "個人網站"
     weight: 2
   bn:
     languageName: বাংলা

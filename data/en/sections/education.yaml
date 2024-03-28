@@ -44,6 +44,8 @@ degrees:
     - name: Selected Topics in Engineering Mathematics
       achieved: A+
       outOf: A+    
+  extracurricularActivities: #(optional)
+    - As a TA for Adaptive Signal Processing in my second year of the master's program.
 - name: B.S. in Communication Engineering
   icon: fa-graduation-cap
   timeframe: 2017-2021

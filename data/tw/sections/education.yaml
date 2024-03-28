@@ -44,6 +44,8 @@ degrees:
     - name: 工程數學特論 
       achieved: A+
       outOf: A+    
+  extracurricularActivities: #(optional)
+    - 碩二上，擔任可適性信號處理的助教。
 - name: 通訊工程學士
   icon: fa-graduation-cap
   timeframe: 2017-2021

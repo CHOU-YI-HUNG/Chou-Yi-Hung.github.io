@@ -7,7 +7,7 @@ copyright: © 2024 Copyright.
 # However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: 周怡宏個人網站
+description: 個人網站
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -22,8 +22,8 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: 周怡宏個人網站
+  title: 個人網站
   type: website
-  description: 周怡宏個人網站
+  description: 個人網站
   image: images/author/Chou.jpg
   url: https://Chou-Yi-Hung.github.io
