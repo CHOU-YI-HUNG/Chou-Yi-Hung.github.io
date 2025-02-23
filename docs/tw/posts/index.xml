@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>文章 on 周怡宏個人網站</title>
+    <title>文章 on 個人網站</title>
     <link>https://CHOU-YI-HUNG.github.io/tw/posts/</link>
-    <description>Recent content in 文章 on 周怡宏個人網站</description>
+    <description>Recent content in 文章 on 個人網站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tw</language><atom:link href="https://CHOU-YI-HUNG.github.io/tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>tw</language>
+    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://CHOU-YI-HUNG.github.io/tw/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Leetcode練習</title>
+      <link>https://CHOU-YI-HUNG.github.io/tw/posts/leetcode-practice/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CHOU-YI-HUNG.github.io/tw/posts/leetcode-practice/</guid>
+      <description>這是個用來記錄我練習Leetcode題目的筆記。
+這些問題是從這個網站挑題目撰寫的:https://leetcode.com/studyplan/top-interview-150/</description>
+    </item>
+    
+    <item>
+      <title>Remove Duplicates from Sorted Array</title>
+      <link>https://CHOU-YI-HUNG.github.io/tw/posts/leetcode-practice/problems/remove-duplicates-from-sorted-array/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CHOU-YI-HUNG.github.io/tw/posts/leetcode-practice/problems/remove-duplicates-from-sorted-array/</guid>
+      <description>題目 給定一個陣列nums，把陣列中重複的元素刪除，並且刪除完後，前後順序不變。
+範例 程式碼 方法1 class Solution(object): def removeDuplicates(self, nums): &amp;#34;&amp;#34;&amp;#34; :type nums: List[int] :rtype: int &amp;#34;&amp;#34;&amp;#34; nums_len=len(nums) duplicate_nums=0 i=0 ii=0 while i&amp;lt;nums_len-1: k=1 while (i+k)&amp;lt;nums_len-1 and nums[i]==nums[i+k]: #當他們兩相同的時候 k=k+1 nums[ii +1]=nums[i+k] #當他們兩不相同的時候 i=i+k ii=ii+1 duplicate_nums=duplicate_nums+k-1 del nums[nums_len-1-duplicate_nums:nums_len-1] nums_len=len(nums) if nums_len&amp;gt;1 and nums[nums_len-2]==nums[nums_len-1]: del nums[nums_len-1] print(nums) #nums=list(set(nums)) #print(nums) 逐行解釋 先用k紀錄重複幾個 nums[ii+1]=nums[i+k]，把不一樣的換到前面去 duplicate_nums=duplicate_nums+k-1:記錄重複幾個 最後一次全部刪掉 因為bug顯示，最後面少刪一個重複，所以多個一if判斷式，看最面要不要刪 程式碼心得 只執行一次delete，非常快。 方法2 class Solution(object): def removeDuplicates(self, nums): &amp;#34;&amp;#34;&amp;#34; :type nums: List[int] :rtype: int &amp;#34;&amp;#34;&amp;#34; n=len(nums) i=0 while i&amp;lt;n-1: while (i)&amp;lt;n-1 and nums[i]==nums[i+1]: #當他們兩相同的時候 n-=1 del nums[i:i+1] i+=1 print(nums) </description>
+    </item>
+    
+    
   </channel>
 </rss>

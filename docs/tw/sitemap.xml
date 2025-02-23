@@ -2,7 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://CHOU-YI-HUNG.github.io/tw/categories/basic/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://CHOU-YI-HUNG.github.io/categories/basic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://CHOU-YI-HUNG.github.io/tw/categories/basic/"
+                />
+  </url><url>
     <loc>https://CHOU-YI-HUNG.github.io/tw/categories/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -12,6 +26,65 @@
                 rel="alternate"
                 hreflang="tw"
                 href="https://CHOU-YI-HUNG.github.io/tw/categories/"
+                />
+  </url><url>
+    <loc>https://CHOU-YI-HUNG.github.io/tw/posts/leetcode-practice/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://CHOU-YI-HUNG.github.io/tw/posts/leetcode-practice/problems/remove-duplicates-from-sorted-array/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://CHOU-YI-HUNG.github.io/tw/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://CHOU-YI-HUNG.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://CHOU-YI-HUNG.github.io/tw/"
+                />
+  </url><url>
+    <loc>https://CHOU-YI-HUNG.github.io/tw/posts/leetcode-practice/problems/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://CHOU-YI-HUNG.github.io/tw/posts/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://CHOU-YI-HUNG.github.io/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://CHOU-YI-HUNG.github.io/tw/posts/"
+                />
+  </url><url>
+    <loc>https://CHOU-YI-HUNG.github.io/tw/notes/go/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://CHOU-YI-HUNG.github.io/notes/go/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://CHOU-YI-HUNG.github.io/tw/notes/go/"
+                />
+  </url><url>
+    <loc>https://CHOU-YI-HUNG.github.io/tw/notes/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://CHOU-YI-HUNG.github.io/notes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://CHOU-YI-HUNG.github.io/tw/notes/"
                 />
   </url><url>
     <loc>https://CHOU-YI-HUNG.github.io/tw/tags/</loc>
@@ -24,30 +97,6 @@
                 rel="alternate"
                 hreflang="tw"
                 href="https://CHOU-YI-HUNG.github.io/tw/tags/"
-                />
-  </url><url>
-    <loc>https://CHOU-YI-HUNG.github.io/tw/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://CHOU-YI-HUNG.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://CHOU-YI-HUNG.github.io/tw/"
-                />
-  </url><url>
-    <loc>https://CHOU-YI-HUNG.github.io/tw/posts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://CHOU-YI-HUNG.github.io/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://CHOU-YI-HUNG.github.io/tw/posts/"
                 />
   </url>
 </urlset>

@@ -110,6 +110,16 @@
   </url><url>
     <loc>https://CHOU-YI-HUNG.github.io/categories/basic/</loc>
     <lastmod>2024-03-23T12:06:25+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://CHOU-YI-HUNG.github.io/tw/categories/basic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://CHOU-YI-HUNG.github.io/categories/basic/"
+                />
   </url><url>
     <loc>https://CHOU-YI-HUNG.github.io/categories/</loc>
     <lastmod>2024-03-23T12:06:25+08:00</lastmod>
@@ -153,17 +163,40 @@
                 href="https://CHOU-YI-HUNG.github.io/"
                 />
   </url><url>
-    <loc>https://CHOU-YI-HUNG.github.io/tags/basic/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+    <loc>https://CHOU-YI-HUNG.github.io/notes/</loc>
+    <lastmod>2010-06-08T08:06:25+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://CHOU-YI-HUNG.github.io/tw/notes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://CHOU-YI-HUNG.github.io/notes/"
+                />
   </url><url>
-    <loc>https://CHOU-YI-HUNG.github.io/posts/introduction/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+    <loc>https://CHOU-YI-HUNG.github.io/search/</loc>
+    <lastmod>2010-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>https://CHOU-YI-HUNG.github.io/tags/multi-lingual/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+    <loc>https://CHOU-YI-HUNG.github.io/notes/bash/</loc>
+  </url><url>
+    <loc>https://CHOU-YI-HUNG.github.io/notes/go/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://CHOU-YI-HUNG.github.io/tw/notes/go/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://CHOU-YI-HUNG.github.io/notes/go/"
+                />
+  </url><url>
+    <loc>https://CHOU-YI-HUNG.github.io/search/</loc>
+    <priority>0.1</priority>
   </url><url>
     <loc>https://CHOU-YI-HUNG.github.io/tags/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
@@ -174,18 +207,5 @@
                 hreflang="en"
                 href="https://CHOU-YI-HUNG.github.io/tags/"
                 />
-  </url><url>
-    <loc>https://CHOU-YI-HUNG.github.io/notes/</loc>
-    <lastmod>2010-06-08T08:06:25+06:00</lastmod>
-  </url><url>
-    <loc>https://CHOU-YI-HUNG.github.io/search/</loc>
-    <lastmod>2010-06-08T08:06:25+06:00</lastmod>
-  </url><url>
-    <loc>https://CHOU-YI-HUNG.github.io/notes/bash/</loc>
-  </url><url>
-    <loc>https://CHOU-YI-HUNG.github.io/notes/go/</loc>
-  </url><url>
-    <loc>https://CHOU-YI-HUNG.github.io/search/</loc>
-    <priority>0.1</priority>
   </url>
 </urlset>
