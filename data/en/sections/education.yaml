@@ -24,6 +24,8 @@ degrees:
   publications: #(optional)
   - title: "One-Bit Power and Autocorrelation Estimation: Cramér-Rao Bounds and Adaptive Methods"
     url: "https://hdl.handle.net/11296/9mudek"
+  - title: "Approximation and Analysis of the One-Bit Hermite Law"
+    url: "https://ieeexplore.ieee.org/abstract/document/10888049"  
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true

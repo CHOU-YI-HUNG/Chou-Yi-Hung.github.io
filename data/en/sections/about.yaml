@@ -8,11 +8,11 @@ section:
   template: sections/about.html
 
 # your designation
-designation: between jobs
+designation: Firmware Engineer
 # your company information
-# company:
-#   name: Example Co.
-#   url: "https://www.example.com"
+company:
+  name: Phison Electronics Corp.
+  url: "https://www.phison.com/en/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.

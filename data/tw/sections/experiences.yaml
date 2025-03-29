@@ -11,10 +11,21 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: 群聯電子股份有限公司
+    url: "https://www.phison.com/zh-tw/"
+    location: 台灣竹南
+    logo: /images/sections/experiences/PHISON.png
+    overview: "群聯電子股份有限公司成立於2000年，是全球領先的快閃記憶體控制器IC設計公司，提供完整的快閃記憶體控制器IC解決方案。"
+  positions:
+  - designation: 軟韌體工程師
+    start: 2024年7月    
+    responsibilities:
+    - 分析SSD軟體問題，並提供解決方案    
+- company:
     name: 聯發科技
     url: "https://www.mediatek.tw/"
     location: 台灣
-    logo: /images/sections/experiences/MTK.jfif
+    logo: /images/sections/experiences/MTK.png
     overview: "聯發科技股份有限公司為全球第五大無晶圓廠半導體公司，他們在行動裝置、家庭娛樂、無線通訊、物聯網等產品居市場領先地位。每年約有  20 億台內建聯發科技晶片的終端產品在全球上市，近三分之一的手機均採用聯發科技晶片。"
   positions:
   - designation: 實習生

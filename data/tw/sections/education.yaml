@@ -24,12 +24,14 @@ degrees:
   publications: #(optional)
   - title: "單元量化功率和自我相關函數估計: Cramér-Rao界和自適應方法"
     url: "https://hdl.handle.net/11296/9mudek"
+  - title: "Approximation and Analysis of the One-Bit Hermite Law"
+    url: "https://ieeexplore.ieee.org/abstract/document/10888049"
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
     collapseAfter: 3
     courses:
-    - name: 可適性信號處理 
+    - name: 可適性信1111號處理
       achieved: A+
       outOf: A+
     - name:  凸函數最佳化

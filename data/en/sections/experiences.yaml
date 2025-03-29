@@ -11,10 +11,21 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Phison Electronics Corp.
+    url: "https://www.phison.com/en/"
+    location: Taiwan
+    logo: /images/sections/experiences/PHISON.png
+    overview: "Phison Electronics Corp. was founded in 2000 and is a leading global NAND controller IC company that offers a complete solution for NAND flash memory controller ICs."
+  positions:
+  - designation: "Firmware Engineer"
+    start: Jul. 2024   
+    responsibilities:
+    - Analyze SSD software issues and provide solutions.
+- company:
     name: MediaTek (MTK).
     url: "https://www.mediatek.tw/"
     location: Taiwan
-    logo: /images/sections/experiences/MTK.jfif
+    logo: /images/sections/experiences/MTK.png
     overview: "MediaTek Incorporated is the world’s 5th largest global fabless semiconductor company. 
     They are market leaders in developing innovative systems-on-chip (SoC) for mobile device, home entertainment, connectivity and IoT products. "
   positions:
